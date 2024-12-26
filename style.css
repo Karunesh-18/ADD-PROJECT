@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.cart {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.categories button {
+    width: 18%;
+}
+
+.products .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.products .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-text.price {
+    font-weight: bold;
+    color: #232f3e;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
