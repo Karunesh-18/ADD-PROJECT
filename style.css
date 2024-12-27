@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa; /* Light pastel background */
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%; /* Ensure the image fits the width of the carousel */
+}
+
+.cart {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1d3557; /* Dark pastel blue */
+}
+
+.main {
+    padding: 20px;
+}
+
+.categories button {
+    width: 18%;
+}
+
+.products .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.products .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-text.price {
+    font-weight: bold;
+    color: #457b9d; /* Medium pastel blue */
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #1d3557; /* Dark pastel blue */
+}
+
+.navbar {
+    background-color: #a8dadc; /* Pastel teal */
+}
+
+.navbar .nav-link {
+    color: #1d3557; /* Dark pastel blue */
+}
+
+.navbar .nav-link:hover {
+    color: #457b9d; /* Medium pastel blue */
+}
+
+.btn-outline-primary {
+    color: #457b9d; /* Medium pastel blue */
+    border-color: #457b9d;
+}
+
+.btn-outline-primary:hover {
+    background-color: #457b9d;
+    color: #f8f9fa; /* Light pastel background */
+}
+
+.btn-primary {
+    background-color: #ffb6b9; /* Pastel pink */
+    border-color: #ffb6b9;
+}
+
+.btn-primary:hover {
+    background-color: #ff6f61; /* Darker pastel pink */
+    border-color: #ff6f61;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffb6b9; /* Pastel pink */
+}
+
+.card {
+    border: 1px solid #e0e0e0; /* Light grey */
+}
+
+/* Ensure the images fit inside the carousel for Dell Alienware m18 R1 */
+#dellCarousel .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Align the "Add to Cart" and "Buy Now" buttons for the Dell container */
+.products .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Ensure the images fit inside the carousel for OnePlus 12 */
+#oneplusCarousel .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Adjust the container size to fit the images */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.img{
+    width: 100%;
+    height: 150%;
+}
