@@ -68,11 +68,11 @@
 
     <main class="main container my-5">
         <section class="categories mb-4 d-flex justify-content-between">
-            <button class="btn btn-outline-primary">Electronics</button>
-            <button class="btn btn-outline-primary">Books</button>
-            <button class="btn btn-outline-primary">Clothing</button>
-            <button class="btn btn-outline-primary">Home & Kitchen</button>
-            <button class="btn btn-outline-primary">More</button>
+            <button class="btn btn-outline-primary">Laptops</button>
+            <button class="btn btn-outline-primary">Desktops</button>
+            <button class="btn btn-outline-primary">Accesories</button>
+            <button class="btn btn-outline-primary">Phones</button>
+            <button class="btn btn-outline-primary">Handhelds</button>
         </section>
 
         <section class="products row" id="products">
@@ -83,19 +83,22 @@
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Rog Strix Scar 16</h5>
-                        <p class="card-text price">$99.99</p>
-                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('Rog Strix Scar 16', 99.99)">Add to Cart</button>
-                        <button class="btn btn-success w-100" onclick="buyNow('Rog Strix Scar 16', 99.99)">Buy Now</button>
+                        <p class="card-text price">₹3,39,990 <span class="text-muted"><del>₹3,95,990</del></span> <span class="text-success">-14%</span></p>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('Rog Strix Scar 16', 339990)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('Rog Strix Scar 16', 339990)">Buy Now</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 2">
+                    <a href="Products/mac.html">
+                        <img src="Products/items/mac/mac1.webp" class="card-img-top" alt="MacBook Pro 2023">
+                    </a>
                     <div class="card-body">
-                        <h5 class="card-title">Product Name 2</h5>
-                        <p class="card-text price">$49.99</p>
-                        <button class="btn btn-primary w-100" onclick="addToCart('Product Name 2', 49.99)">Add to Cart</button>
+                        <h5 class="card-title">MacBook Pro 2023</h5>
+                        <p class="card-text price">₹2,59,900 <span class="text-muted"><del>₹2,89,900</del></span> <span class="text-success">-10%</span></p>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('MacBook Pro 2023', 259900)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('MacBook Pro 2023', 259900)">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -105,7 +108,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Product Name 3</h5>
                         <p class="card-text price">$29.99</p>
-                        <button class="btn btn-primary w-100" onclick="addToCart('Product Name 3', 29.99)">Add to Cart</button>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('Product Name 3', 29.99)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('Product Name 3', 29.99)">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -115,7 +119,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Product Name 4</h5>
                         <p class="card-text price">$19.99</p>
-                        <button class="btn btn-primary w-100" onclick="addToCart('Product Name 4', 19.99)">Add to Cart</button>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('Product Name 4', 19.99)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('Product Name 4', 19.99)">Buy Now</button>
                     </div>
                 </div>
             </div>
