@@ -19,6 +19,7 @@
 .team-member img {
     width: 350px;
     height: 100%;
+    border-radius: 90%;
 }
 
 .team-member a {
@@ -29,12 +30,16 @@
     font-size: 18px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: #333;
-    border-radius: 50%;
-}
-
 .carousel-item {
     transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black; /* Change arrow color to black */
+}
+
+.team-member a {
+    font-family: 'Copperplate'; /* Add Copperplate font */
+    font-size: 1.2rem; /* Adjust font size */
 }
