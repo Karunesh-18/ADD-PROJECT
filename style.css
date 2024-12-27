@@ -9,6 +9,7 @@ body {
 .carousel img {
     height: 400px;
     object-fit: cover;
+    width: 100%; /* Ensure the image fits the width of the carousel */
 }
 
 .cart {
@@ -86,4 +87,22 @@ body {
 
 .card {
     border: 1px solid #e0e0e0; /* Light grey */
+}
+
+
+
+
+/* Ensure the images fit inside the carousel for Dell Alienware m18 R1 */
+#dellCarousel .carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Align the "Add to Cart" and "Buy Now" buttons for the Dell container */
+.products .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
