@@ -22,10 +22,18 @@ function buyNow(productName, price) {
 
 function showPhones() {
     document.getElementById('products').classList.add('d-none');
+    document.getElementById('accessories').classList.add('d-none');
     document.getElementById('phones').classList.remove('d-none');
 }
 
 function showLaptops() {
     document.getElementById('phones').classList.add('d-none');
+    document.getElementById('accessories').classList.add('d-none');
     document.getElementById('products').classList.remove('d-none');
+}
+
+function showAccessories() {
+    document.getElementById('products').classList.add('d-none');
+    document.getElementById('phones').classList.add('d-none');
+    document.getElementById('accessories').classList.remove('d-none');
 }
