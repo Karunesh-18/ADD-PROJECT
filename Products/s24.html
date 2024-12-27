@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy S24 Ultra 5G - Specifications and Reviews</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">E-Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="cart ms-3" onclick="viewCart()">
+                    <i class="fas fa-shopping-cart text-white"></i>
+                    <span id="cart-count" class="text-white">Cart (0)</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="s24Carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="items/s24/1.jpg" class="d-block w-100" alt="Samsung Galaxy S24 Ultra Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="items/s24/2.jpg" class="d-block w-100" alt="Samsung Galaxy S24 Ultra Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="items/s24/3.jpg" class="d-block w-100" alt="Samsung Galaxy S24 Ultra Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="items/s24/4.jpg" class="d-block w-100" alt="Samsung Galaxy S24 Ultra Image 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="items/s24/5.jpg" class="d-block w-100" alt="Samsung Galaxy S24 Ultra Image 5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="items/s24/6.jpg" class="d-block w-100" alt="Samsung Galaxy S24 Ultra Image 6">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#s24Carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#s24Carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h1>Samsung Galaxy S24 Ultra 5G</h1>
+                <p class="price">₹1,21,999 <span class="text-muted"><del>₹1,44,999</del></span> <span class="text-success">-16%</span></p>
+                <p>Inclusive of all taxes</p>
+                <p>EMI starts at ₹21,666. No Cost EMI available</p>
+                <button class="btn btn-primary w-100 mb-3" onclick="addToCart('Samsung Galaxy S24 Ultra 5G', 121999)">Add to Cart</button>
+                <button class="btn btn-success w-100 mb-3" onclick="buyNow('Samsung Galaxy S24 Ultra 5G', 121999)">Buy Now</button>
+                <h2>Specifications</h2>
+                <ul>
+                    <li>Colour: Grey</li>
+                    <li>Size: 12GB + 512GB</li>
+                    <li>Pattern Name: With Offer</li>
+                    <li>Brand: Samsung</li>
+                    <li>Operating System: Android 14</li>
+                    <li>RAM Memory Installed Size: 12 GB</li>
+                    <li>CPU Model: Snapdragon</li>
+                    <li>CPU Speed: 3.39 GHz</li>
+                </ul>
+                <h2>About this item</h2>
+                <ul>
+                    <li>Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm (6.8") flat display. It's an absolute marvel of design.</li>
+                    <li>The legacy of Galaxy Note is alive and well. Write, tap and navigate with precision your fingers wish they had on the new, flat display.</li>
+                    <li>With the most megapixels on a smartphone and AI processing, Galaxy S24 Ultra sets the industry standard for image quality every time you hit the shutter. What's more, the new ProVisual engine recognizes objects — improving colour tone, reducing noise and bringing out detail.</li>
+                    <li>A new way to search is here with Circle to Search. While scrolling your fav social network, use your S Pen or finger to circle something and get Google Search results.</li>
+                    <li>Victory can be yours with the new Snapdragon 8 Gen 3 for Galaxy. Faster processing gives you the power you need for all the gameplay you want. Then, manifest graphic effects in real time with ray tracing for hyper-realistic shadows and reflections.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
