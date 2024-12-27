@@ -19,3 +19,13 @@ function buyNow(productName, price) {
     updateCartCount();
     viewCart();
 }
+
+function showPhones() {
+    document.getElementById('products').classList.add('d-none');
+    document.getElementById('phones').classList.remove('d-none');
+}
+
+function showLaptops() {
+    document.getElementById('phones').classList.add('d-none');
+    document.getElementById('products').classList.remove('d-none');
+}

@@ -68,9 +68,9 @@
 
     <main class="main container my-5">
         <section class="categories mb-4 d-flex justify-content-between">
-            <button class="btn btn-outline-primary">Laptops</button>
+            <button class="btn btn-outline-primary" onclick="showLaptops()">Laptops</button>
+            <button class="btn btn-outline-primary" onclick="showPhones()">Phones</button>
             <button class="btn btn-outline-primary">Accesories</button>
-            <button class="btn btn-outline-primary">Phones</button>
         </section>
 
         <section class="products row" id="products">
@@ -125,6 +125,61 @@
                         <p class="card-text price">₹3,67,905 <span class="text-muted"><del>₹4,69,654</del></span> <span class="text-success">-22%</span></p>
                         <button class="btn btn-primary w-100 mb-2" onclick="addToCart('Dell Alienware m18 R1', 367905)">Add to Cart</button>
                         <button class="btn btn-success w-100" onclick="buyNow('Dell Alienware m18 R1', 367905)">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products row d-none" id="phones">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <a href="Products/iphone.html">
+                        <img src="Products/items/Iphone/1.jpg" class="card-img-top" alt="iPhone 16 Pro">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 16 Pro</h5>
+                        <p class="card-text price">₹1,26,900 <span class="text-muted"><del>₹1,29,900</del></span> <span class="text-success">-2%</span></p>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('iPhone 16 Pro', 126900)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('iPhone 16 Pro', 126900)">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <a href="Products/s24.html">
+                        <img src="Products/items/s24/1.jpg" class="card-img-top" alt="Samsung Galaxy S23">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy S23</h5>
+                        <p class="card-text price">₹79,999 <span class="text-muted"><del>₹89,999</del></span> <span class="text-success">-11%</span></p>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('Samsung Galaxy S23', 79999)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('Samsung Galaxy S23', 79999)">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <a href="Products/oneplus.html">
+                        <img src="Products/items/oneplus/oneplus1.jpg" class="card-img-top" alt="OnePlus 11">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">OnePlus 11</h5>
+                        <p class="card-text price">₹64,999 <span class="text-muted"><del>₹69,999</del></span> <span class="text-success">-7%</span></p>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('OnePlus 11', 64999)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('OnePlus 11', 64999)">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <a href="Products/google.html">
+                        <img src="Products/items/google/google1.jpg" class="card-img-top" alt="Google Pixel 7">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Google Pixel 7</h5>
+                        <p class="card-text price">₹59,999 <span class="text-muted"><del>₹64,999</del></span> <span class="text-success">-8%</span></p>
+                        <button class="btn btn-primary w-100 mb-2" onclick="addToCart('Google Pixel 7', 59999)">Add to Cart</button>
+                        <button class="btn btn-success w-100" onclick="buyNow('Google Pixel 7', 59999)">Buy Now</button>
                     </div>
                 </div>
             </div>
